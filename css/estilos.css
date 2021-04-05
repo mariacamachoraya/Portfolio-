@@ -20,10 +20,6 @@ box-sizing: border-box;
 --Gradiente-Colores-Oscuros: linear-gradient(-45deg, var(--COLOR-5) 0%, var(--COLOR-5) 100%);
 
 }
-.mensaje-exito{
-  margin-top: 50px;
- 
-}
 body{
  font-family: 'Open Sans', sans-serif;
  width: 100%;
@@ -306,7 +302,7 @@ justify-content: center;
 clip-path: circle(150% at 100% 0);
 
  transition: clip-path 0.8s ease-in-out;
- transition-delay:3s;
+ transition-delay:0s;
    overflow: hidden;
       
   }
@@ -533,7 +529,7 @@ height: 96vh;
  }
 
  .ind-socialmedia{  
-    width:20px; 
+    width:15px; 
     height: auto;
     opacity: 0.4;
  }
@@ -1752,23 +1748,19 @@ z-index: 0;
 .Insight-ind{
   position: relative;  
     width: 28%;
-      height:400px;
+      height: 400px;
       text-align: center;
      justify-content:center; 
-
    
 }
-.Insight-indiv{
+.Incid-ind{
   position: relative;  
-    width: 28%;
-      height:200px;
-      text-align: center;
-     justify-content:center; 
-     padding-top: 20px;
+  width: 24%;
+    height: 200px;
+    text-align: center;
+   justify-content:center; 
 
-   
 }
-
 .Juguetes-ind{
   position: relative;  
     width: 40%;   
@@ -2209,17 +2201,15 @@ justify-content: center;
      justify-content:center; 
    
 }
-
-.Insight-indiv{
+.Incid-ind{
   position: relative;  
   width: 60%;
-      height:200px;
-      text-align: center;
-     justify-content:center; 
-     padding-top: 20px;
+    height: 200px;
+    text-align: center;
+   justify-content:center; 
 
-   
 }
+
 .entrevista{
   align-items: center;
   justify-content:space-around ;
