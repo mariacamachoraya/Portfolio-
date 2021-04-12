@@ -20,6 +20,10 @@ box-sizing: border-box;
 --Gradiente-Colores-Oscuros: linear-gradient(-45deg, var(--COLOR-5) 0%, var(--COLOR-5) 100%);
 
 }
+.mensaje-exito{
+  margin-top: 50px;
+ 
+}
 body{
  font-family: 'Open Sans', sans-serif;
  width: 100%;
@@ -302,7 +306,7 @@ justify-content: center;
 clip-path: circle(150% at 100% 0);
 
  transition: clip-path 0.8s ease-in-out;
- transition-delay:0s;
+ transition-delay:3s;
    overflow: hidden;
       
   }
@@ -529,7 +533,7 @@ height: 96vh;
  }
 
  .ind-socialmedia{  
-    width:15px; 
+    width:20px; 
     height: auto;
     opacity: 0.4;
  }
@@ -1542,13 +1546,13 @@ overflow: hidden;
     height: 100%; 
 
        top:15%;
-       right:9%;
+       right:2%;
       
   
    } 
    .img-portfolio-inicio{
      position: relative;
-   height: 85%;
+   height: 70%;
     
    }
 
@@ -1748,19 +1752,23 @@ z-index: 0;
 .Insight-ind{
   position: relative;  
     width: 28%;
-      height: 400px;
+      height:400px;
       text-align: center;
      justify-content:center; 
+
    
 }
-.Incid-ind{
+.Insight-indiv{
   position: relative;  
-  width: 24%;
-    height: 200px;
-    text-align: center;
-   justify-content:center; 
+    width: 28%;
+      height:200px;
+      text-align: center;
+     justify-content:center; 
+     padding-top: 20px;
 
+   
 }
+
 .Juguetes-ind{
   position: relative;  
     width: 40%;   
@@ -2201,15 +2209,17 @@ justify-content: center;
      justify-content:center; 
    
 }
-.Incid-ind{
+
+.Insight-indiv{
   position: relative;  
   width: 60%;
-    height: 200px;
-    text-align: center;
-   justify-content:center; 
+      height:200px;
+      text-align: center;
+     justify-content:center; 
+     padding-top: 20px;
 
+   
 }
-
 .entrevista{
   align-items: center;
   justify-content:space-around ;
@@ -2542,7 +2552,8 @@ flex-direction: column;
 }
 .contenedor-Descripción-ind{
   width:100%;
-  height: 40%;
+  height:50%;
+
   display: flex;
 justify-content: center;
 align-items: center;
